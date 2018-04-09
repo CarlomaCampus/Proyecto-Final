@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="Jugadores" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="889.0" prefWidth="1315.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="650.0" layoutY="437.0">
+         <children>
+            <GridPane fx:id="gridpane" alignment="CENTER" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="16.0" prefWidth="16.0" >
+               <effect>
+                  <Reflection fraction="0.4" topOffset="5.0" />
+               </effect>
+            </GridPane>
+         </children>
+      </Pane>
+      <ImageView fx:id="minaico" fitHeight="36.0" fitWidth="22.0" layoutX="981.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@application/res/mina.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="minastext" layoutX="1008.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minas" wrappingWidth="130.1542840898037">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Text>
+      <ProgressBar fx:id="playersbar" layoutX="224.0" layoutY="70.0" prefHeight="23.0" prefWidth="868.0" />
+      <Text fx:id="estadotext" layoutX="224.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Esperando a jugadores:" wrappingWidth="1036.03125">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fx:id="numplayerstext" layoutX="1105.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(0/0)">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="diftext" layoutX="1008.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dificultad" wrappingWidth="130.154296875">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="difico" fitHeight="36.0" fitWidth="22.0" layoutX="981.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@application/res/dificultad.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="flagico" fitHeight="36.0" fitWidth="22.0" layoutX="981.0" layoutY="298.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@application/res/flag.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="flagstext" layoutX="1008.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Banderas" wrappingWidth="130.1542840898037">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Text>
+      <Pane layoutY="863.0" prefHeight="23.0" prefWidth="1315.0" style="-fx-border-color: grey; -fx-border-width: 1 0 0 0;">
+         <children>
+            <ImageView fx:id="statusimage" fitHeight="16.0" fitWidth="25.0" layoutX="12.0" layoutY="4.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@application/res/tick.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="statustext" layoutX="34.0" layoutY="16.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Esperando jugadores..." wrappingWidth="661.13671875" />
+         </children></Pane>
+      <GridPane fx:id="puntuaciongrid" alignment="CENTER" layoutX="23.0" layoutY="130.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="717.0" prefWidth="392.0" stylesheets="@application.css">
+         <effect>
+            <Reflection fraction="0.4" topOffset="5.0" />
+         </effect>
+      </GridPane>
+
+   </children>
+</Pane>

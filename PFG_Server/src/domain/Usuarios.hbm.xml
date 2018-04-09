@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 29-mar-2018 23:18:01 by Hibernate Tools 5.2.8.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="buscaminasonline" dynamic-insert="false" dynamic-update="false" mutable="true" name="domain.Usuarios" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="usuarios">
+        <id name="idusuario" type="java.lang.Integer">
+            <column name="idusuario"/>
+            <generator class="identity"/>
+        </id>
+        <property generated="never" lazy="false" name="username" optimistic-lock="true" type="string" unique="false">
+            <column length="25" name="username" unique="true"/>
+        </property>
+        <property generated="never" lazy="false" name="password" optimistic-lock="true" type="string" unique="false">
+            <column length="100" name="password"/>
+        </property>
+        <property generated="never" lazy="false" name="puntos" optimistic-lock="true" type="java.lang.Integer" unique="false">
+            <column name="puntos"/>
+        </property>
+    </class>
+</hibernate-mapping>

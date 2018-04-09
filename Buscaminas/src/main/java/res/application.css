@@ -1,0 +1,92 @@
+.puntuacioncab {
+	
+	-fx-font-size: 20 px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #005cc6;
+    
+	
+}
+
+.jugadorcab {
+	
+	-fx-font-size: 20 px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+	
+}
+
+.puntuacion {
+	
+	-fx-font-size: 20 px;
+    -fx-text-fill: #0091c8;
+	
+}
+
+
+.jugador {
+	
+	-fx-font-size: 20 px;
+    -fx-text-fill: #333333;
+	
+}
+
+
+
+.botontablero {
+    -fx-background-color: -fx-outer-border, -fx-inner-border, -fx-body-color; 
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 5, 4, 3;
+}
+
+
+.bordegris{
+	-fx-border-width: 1;
+	-fx-border-color: #e2e2e2;
+}
+
+.textcasilla {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.colorone {
+	
+	-fx-text-fill: #27c10f;
+	
+}
+
+.colortwo {
+	
+	-fx-text-fill: #0d7700;
+}
+
+.colorthree {
+	
+	-fx-text-fill: #c17915;
+}
+
+.colorfour {
+	
+	-fx-text-fill: #bc470d;
+}
+
+.colorfive {
+	
+	-fx-text-fill: #ce0808;
+}
+
+.colorsix {
+	
+	-fx-text-fill: #770239;
+}
+
+.colorseven {
+	
+	-fx-text-fill: #5b024f;
+}
+
+.coloreight {
+	
+	-fx-text-fill: #000000;
+}
+
